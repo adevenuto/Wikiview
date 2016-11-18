@@ -1,0 +1,51 @@
+body,html,ul,h1,h2,h3,h4,h5,p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+}
+html, body {
+  height: 100%;
+}
+#user-query {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#user-query h1 {
+  text-align: center;
+}
+#confine-text {
+  word-wrap: break-word;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+#display {
+  /*border: 1px solid #000;*/
+  padding: 5px;
+}
+.result {
+  opacity: 0;
+  height: 0;
+  transition-timing-function: cubic-bezier( -0.55, 0.265, 1.55);
+}
+.result.effect {
+  -webkit-animation: fade 5s;
+  animation: fade .5s;
+  opacity: 1;
+  height: 100px;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: 0; height: 0;}
+    to {opacity: 1; height: 100px;}
+} @keyframes fade {
+    from {opacity: 0; height: 0;}
+    to {opacity: 1; height: 100px;}
+}
+
+
+
+
+

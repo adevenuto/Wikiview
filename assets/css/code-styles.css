@@ -1,0 +1,24 @@
+.purple {
+  color: #cb9dff;
+}
+.blue {
+  color: #7fb6ff;
+}
+.white {
+  color: #fff;
+}
+.orange {
+  color: #E3AB28;
+}
+.aqua {
+  color: #28D0E3;
+}
+.yellow {
+  color: #ebff00;
+}
+pre {
+  background: #000;
+  border-radius: 0px;
+  max-width: 400px;
+  margin: 0 auto;
+}
