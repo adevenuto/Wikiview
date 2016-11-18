@@ -17,3 +17,9 @@ $(document).on('keydown', function(e) {
     removeChar();
   }
 });
+
+// $('.result.effect').animate({
+//     height: $('.result').get(0).scrollHeight
+// }, 1000, function(){
+//     $(this).height('auto');
+// })

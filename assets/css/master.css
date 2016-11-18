@@ -1,7 +1,7 @@
 body,html,ul,h1,h2,h3,h4,h5,p {
   margin: 0;
   padding: 0;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Muli', sans-serif;
 }
 html, body {
   height: 100%;
@@ -26,11 +26,10 @@ html, body {
   padding: 5px;
 }
 .result {
-  opacity: 0;
-  height: 0;
-  transition-timing-function: cubic-bezier( -0.55, 0.265, 1.55);
+  opacity: 1;
+  height: auto;
 }
-.result.effect {
+/*.result.effect {
   -webkit-animation: fade 5s;
   animation: fade .5s;
   opacity: 1;
@@ -43,7 +42,7 @@ html, body {
 } @keyframes fade {
     from {opacity: 0; height: 0;}
     to {opacity: 1; height: 100px;}
-}
+}*/
 
 
 
