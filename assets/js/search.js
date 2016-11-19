@@ -31,18 +31,18 @@
       var p1 = tracker[0]
       var p2 = tracker[1]
       $('#display').append('<div class="result row">' +
-                            '<div class="col-sm-6">' +
+                            '<div class="col-sm-6 page">' +
                                '<a href="https://en.wikipedia.org/wiki/' + pages[p1].title + '">' +
                                '<h3>' + pages[p1].title + '</h3>' +
                                '<p>' + pages[p1].extract + '</p>' +
-                               '<img src=' + pages[p1].thumbnail.source + '>' +
+                               // '<img src=' + pages[p1].thumbnail.source + '>' +
                                '</a>' +
                              '</div>' +
-                             '<div class="col-sm-6">' +
+                             '<div class="col-sm-6 page">' +
                                '<a href="https://en.wikipedia.org/wiki/' + pages[p2].title + '">' +
                                '<h3>' + pages[p2].title + '</h3>' +
                                '<p>' + pages[p2].extract + '</p>' +
-                               '<img src=' + pages[p2].thumbnail.source + '>' +
+                               // '<img src=' + pages[p2].thumbnail.source + '>' +
                                '</a>' +
                              '</div>' +
                             '</div>');
