@@ -6,6 +6,40 @@ body,html,ul,h1,h2,h3,h4,h5,p {
 html, body {
   height: 100%;
 }
+li {
+  list-style: none;
+}
+header h1 {
+  font-family: 'Fontdiner Swanky', cursive;
+  text-align: center;
+  font-size: 4em;
+  padding: 30px 0 20px 0;
+  color: #d80505;
+}
+#search-control {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+#btn {
+  position: relative;
+  top: 1px;
+  left: -28px;
+  color: #d80505;
+  font-size: 1.1em;
+}
+#input-field {
+  border-radius: 13px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ababab;
+  padding: 4px 11px;
+  outline: none;
+  transition: border-color 100ms linear;
+}
+#input-field:hover, #input-field:focus {
+  border-color: #000;
+}
 #user-query {
   position: fixed;
   top: 50%;
@@ -15,23 +49,38 @@ html, body {
 }
 .page {
   border: 1px solid #000;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 #user-query h1 {
   text-align: center;
 }
 #confine-text {
   word-wrap: break-word;
-  background: #000;
-  color: #fff;
+  /*background: #000;*/
+  color: #000;
   text-align: center;
+  padding: 10px;
 }
 #display {
   /*border: 1px solid #000;*/
   padding: 5px;
 }
-.result {
-  opacity: 1;
-  height: auto;
+.masonary {
+  -moz-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: .2em;
+  column-gap: .2em;
+}
+.item {
+  background-color: #2f342f;
+  padding: 10px;
+  display: inline-block;
+  margin: 0 0 .2em;
+  width: 100%;
+}
+.page a {
+  color: #fff;
 }
 
 
