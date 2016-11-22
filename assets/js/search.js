@@ -37,12 +37,13 @@
     var tracker = Object.keys(pages);
 
     tracker.forEach(function(key) {
+      var k = key;
       $('#display').append('<div class="page item">' +
-                               '<a href="https://en.wikipedia.org/wiki/' + pages[key].title + '">' +
-                               '<h1>' + pages[key].title + '</h1>' +
-                               // '<img src=' + pages[key].thumbnail.source + '>' +
+                               '<a href="https://en.wikipedia.org/wiki/' + pages[k].title + '">' +
+                               '<h1>' + pages[k].title + '</h1>' +
+                               // '<img src=' + pages[k].thumbnail.source + '>' +
                                '</a>' +
-                               '<p>' + pages[key].extract + '</p>' +
+                               '<p>' + pages[k].extract + '</p>' +
                             '</div>');
     })
   }

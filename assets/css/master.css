@@ -110,7 +110,6 @@ header h1 {
   padding: 10px;
   display: inline-block;
   margin: 0 0 .4em;
-  width: 100%;
   border: 1px solid #000;
   border-radius: 3px;
   transition: background 100ms linear;
