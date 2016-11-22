@@ -35,13 +35,6 @@ header h1 {
   left: 50%;
   transform: translate(-50%);
 }
-#search-control .fa-search {
-  position: absolute;
-  top: 18px;
-  left: 167px;
-  color: #d80505;
-  font-size: 1.2em;
-}
 #input-field {
   border-style: solid;
   border-width: 1px;
@@ -51,6 +44,13 @@ header h1 {
   outline: none;
   color: #ababab;
   transition: border-color 100ms linear;
+}
+#search-control .fa-search {
+  position: absolute;
+  top: 18px;
+  left: 167px;
+  color: #d80505;
+  font-size: 1.2em;
 }
 #input-field:hover, #input-field:focus {
   border-color: #000;
