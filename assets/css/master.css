@@ -24,6 +24,8 @@ header h1 {
   color: #ababab;
   font-size: 2em;
   font-weight: bold;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -ms-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -36,24 +38,27 @@ header h1 {
   transform: translate(-50%);
 }
 #input-field {
-  border-style: solid;
+  -webkit-appearance: none;
+  -webkit-border-radius:0px;
   border-width: 1px;
-  border-color: #ababab;
-  padding: 4px 60px 4px 11px;
   font-size: 1.3em;
-  outline: none;
+  border-color: #ababab;
+  border-style: solid;
+  padding: 4px 60px 4px 11px;
   color: #ababab;
   transition: border-color 100ms linear;
 }
 #search-control .fa-search {
   position: absolute;
-  top: 18px;
-  left: 260px;
+  top: 17px;
+  left: 265px;
   color: #d80505;
   font-size: 1.2em;
+  cursor: pointer;
 }
 #input-field:hover, #input-field:focus {
   border-color: #000;
+  outline: none;
 }
 #user-query {
   position: fixed;
