@@ -85,6 +85,11 @@ header h1 {
 .page p b {
   color: #000;
 }
+.page img {
+  float: right;
+  max-width: 175px;
+  margin: 10px;
+}
 #user-query h1 {
   text-align: center;
 }
@@ -127,6 +132,9 @@ header h1 {
   .masonary {
     -moz-column-count: 1;
     column-count: 1;
+  }
+  header h1 {
+    font-size: 5em;
   }
 }
 
