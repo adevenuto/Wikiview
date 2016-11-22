@@ -15,7 +15,7 @@ header h1 {
   text-align: center;
   font-size: 6em;
   font-weight: bold;
-  padding: 30px 0 20px 0;
+  padding: 30px 0 5px 0;
   color: #d80505;
   letter-spacing: 5px;
 }
@@ -33,7 +33,7 @@ header h1 {
 #search-control {
   position: relative;
   display: inline-block;
-  padding: 10px;
+  padding: 18px 0;
   left: 50%;
   transform: translate(-50%);
 }
@@ -50,8 +50,8 @@ header h1 {
 }
 #search-control .fa-search {
   position: absolute;
-  bottom: 18px;
-  right: 20px;
+  bottom: 26px;
+  right: 10px;
   color: #d80505;
   font-size: 1.4em;
   cursor: pointer;
