@@ -50,8 +50,8 @@ header h1 {
 }
 #search-control .fa-search {
   position: absolute;
-  top: 17px;
-  left: 265px;
+  bottom: 16px;
+  right: 16px;
   color: #d80505;
   font-size: 1.2em;
   cursor: pointer;
