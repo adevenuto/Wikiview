@@ -43,8 +43,8 @@
                                '<a href="https://en.wikipedia.org/wiki/' + pages[k].title + '">' +
                                '<h1>' + pages[k].title + '</h1>' +
                                   (img ? '<img src=' + pages[k].thumbnail.source + '>' : '') +
-                               '</a>' +
                                '<p>' + pages[k].extract + '</p>' +
+                               '</a>' +
                             '</div>');
     })
   }
